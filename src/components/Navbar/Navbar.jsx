@@ -85,6 +85,11 @@ const Navbar = ({avatar}) => {
                   Contact
                                 </a>
                             </li>
+                            <li>
+                                <a href="/book-table" onClick={() => setToggleMenu(false)}>
+                  Booking
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 )}
