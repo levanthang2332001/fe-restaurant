@@ -1,23 +1,35 @@
-import React from 'react';
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, GoogleOneTap } from './container';
+import React from "react";
+import {
+  AboutUs,
+  Chef,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+  GoogleOneTap,
+} from "./container";
 // import { Navbar } from './components';
-import './App.css';
+import MessengerChatBox from "./container/Messenger/MessengerChatBox";
+import "./App.css";
 
 const App = () => (
-    <div>
-        {/* <Navbar /> */}
-        {/* <MessengerChatBox /> */}
-        <GoogleOneTap />
-        <Header />
-        <AboutUs />
-        <SpecialMenu />
-        <Chef />
-        <Intro />
-        <Laurels />
-        <Gallery />
-        <FindUs />
-        <Footer />
-    </div>
+  <div>
+    {/* <Navbar /> */}
+    <MessengerChatBox />
+    <GoogleOneTap />
+    <Header />
+    <AboutUs />
+    <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+    <Footer />
+  </div>
 );
 
 export default App;
