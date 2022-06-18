@@ -1,7 +1,6 @@
 import React from 'react';
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, GoogleOneTap } from './container';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, GoogleOneTap, MessengerChatBox } from './container';
 // import { Navbar } from './components';
-import { MessengerChatBox } from './container/Messenger/MessengerChatBox';
 import './App.css';
 
 const App = () => (
