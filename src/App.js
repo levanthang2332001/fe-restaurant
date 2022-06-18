@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, GoogleOneTap, MessengerChatBox } from './container';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, GoogleOneTap } from './container';
 // import { Navbar } from './components';
 import './App.css';
 
